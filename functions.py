@@ -10,11 +10,11 @@ def multiplication(num1: int,num2:int):
 def division (num1:int,num2:int):
     division = num1/num2
     return division
-num1=input("enter number1")
-num2=input("enter number2")
-add(num1,num2)
-subtraction(num1,num2)
-multiplication(num1,num2)
-division(num1,num2)
+num1=int(input("enter number1"))
+num2=int(input("enter number2"))
+print(add(num1,num2))
+print(subtraction(num1,num2))
+print(multiplication(num1,num2))
+print(division(num1,num2))
 
 
