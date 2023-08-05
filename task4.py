@@ -1,16 +1,17 @@
 
 def triangle_area(base:float,height:float):
     triangle_area = 0.5*base*height
-    return triangle_area
+    space_check(triangle_area)
 def circle_area(radius:float):
-    retcircle_area = 3.14 * (radius ** 2)
-    return retcircle_area
+    circle_area = 3.14 * (radius ** 2)
+    space_check(circle_area)
 def rectangle_area(length:float,width:float):
     rectangle_area= length * width
-    return rectangle_area
+    space_check(rectangle_area)
 
-aera = 5
+
 def space_check(aera):
+    print(f"area is {aera}")
     if aera >=10:
         print("aera is large")
     elif aera<10 and aera>0:
@@ -19,4 +20,6 @@ def space_check(aera):
         print("invalid valuo")
     else:
         print("other")
-arae = space_check(aera)
+triangle_area(4,5)
+circle_area(6)
+rectangle_area(2,3)
