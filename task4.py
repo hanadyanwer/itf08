@@ -9,7 +9,7 @@ def rectangle_area(length:float,width:float):
     rectangle_area= length * width
     return rectangle_area
 
-aera = -1
+aera = 5
 def space_check(aera):
     if aera >=10:
         print("aera is large")
