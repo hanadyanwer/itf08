@@ -6,3 +6,6 @@ def square(length):
     square_area=length**2
     square_ocean=length*4
     return square_area,square_ocean
+
+print(triangle(3,2,4))
+print(square(5))
