@@ -1,6 +1,4 @@
 my_mark = []
-
-
 number_studunt = int(input("Enter number of student :"))
 for i in range(0,number_studunt):
     num_mark = int(input(f"Enter number of  {i+1} student mark :"))
