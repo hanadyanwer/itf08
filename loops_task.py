@@ -1,12 +1,12 @@
 def sum ():
     n1 = int(input("Enter the first number"))
     n2 = int(input("Enter the second number"))
-    print("sum :", n1+n2)
+    print(f"{n1}+{n2} :", n1+n2)
 
 def subtraction ():
     n1 = int(input("Enter the first number"))
     n2 = int(input("Enter the second number"))
-    print("subtraction :", n1 - n2)
+    print(f"subtraction :", n1 - n2)
 
 def multiplication ():
     n1 = int(input("Enter the first number"))
@@ -47,9 +47,9 @@ while True :
             break
         else:
             choice=int(input("Invalid input,Enter valid choice"))
-    if choice ==1:
+    if choice == 1:
         sum()
-    elif choice  == 2:
+    elif choice == 2:
         subtraction()
     elif choice == 3:
         multiplication()
@@ -61,7 +61,7 @@ while True :
         rectangle_area()
     elif choice == 7:
         circle_area()
-    elif choice==8:
+    elif choice == 8:
         print("pye")
         exit()
 
