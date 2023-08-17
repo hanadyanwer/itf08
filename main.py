@@ -15,3 +15,9 @@ if __name__ == '__main__':
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
 
+def solv (a,b):
+    if a==0:
+        return b
+    else:
+        solv(b%a,a)
+print(solv(20,50))
